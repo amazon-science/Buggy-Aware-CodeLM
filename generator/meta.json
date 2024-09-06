@@ -1,0 +1,16 @@
+{
+    "datapath": {
+        "mbpp_test_plus": "/path/to/Buggy-Aware-CodeLM/datasets/raw/mbpp_test.jsonl"
+    },
+    "method" : [
+            "OperatorChangeNodeVisitor",
+            "NumericValueChangeNodeVisitor",
+            "VariableRenamingNodeVisitor",
+            "KeywordRemovalTransformer",
+            "ConditionRemovalNodeVisitor",
+            "BranchRemovalNodeVisitor",
+            "WhileToIfTransformer"
+        ],
+    "savepath": "/path/to/Buggy-Aware-CodeLM/datasets/buggy"
+ }
+ 
