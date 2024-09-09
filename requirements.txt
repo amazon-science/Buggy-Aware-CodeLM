@@ -1,0 +1,6 @@
+deepspeed
+transformers
+wandb
+datasets
+mpi4py
+fire
